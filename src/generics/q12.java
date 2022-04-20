@@ -2,9 +2,7 @@ package generics;
 
 import generics.UnaryPredicate;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 class Algorithm1 {
 
@@ -48,7 +46,14 @@ class RelativelyPrimePredicate implements UnaryPredicate1<Integer> {
 class Test1 {
     public static void main(String[] args) throws Exception {
 
-        List<Integer> li = Arrays.asList(3, 4, 6, 8, 11, 15, 28, 32);
+//        List<Integer> li = Arrays.asList(3, 4, 6, 8, 11, 15, 28, 32);
+
+        Scanner sc = new Scanner(System.in);
+        List<Integer> li = new ArrayList<>();
+        for(int i=0;i<8;i++){
+            int q = sc.nextInt();
+            li.add(q);
+        }
         Collection<Integer> c = Arrays.asList(7, 18, 19, 25);
         UnaryPredicate1<Integer> p = new RelativelyPrimePredicate(c);
 
