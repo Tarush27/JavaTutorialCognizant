@@ -17,6 +17,7 @@ public class Pair<K, V> {
     private K key;
     private V value;
 }
+
 Answer:
 public class Pair {
 
@@ -34,5 +35,5 @@ public class Pair {
     private Object key;
     private Object value;
 }
-
 */
+
