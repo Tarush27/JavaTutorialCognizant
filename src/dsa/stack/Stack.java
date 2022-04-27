@@ -13,5 +13,7 @@ public class Stack {
         System.out.println(s1);
         s1.insertElementAt(7,2);
         System.out.println(s1);
+        s1.removeElement(7);
+        System.out.println(s1);
     }
 }
