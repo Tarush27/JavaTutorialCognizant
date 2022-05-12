@@ -25,7 +25,7 @@ D. -> 2. (checked exception).
 */
 public class q5 {
     public static void main(String[] args) {
-       /* q5 obj = new  q5();
+       /* Q5 obj = new  Q5();
         int[] A;
         A[0] = 0;*/
 

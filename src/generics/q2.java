@@ -15,7 +15,7 @@ Answer: No. java: bad operand types for binary operator '>'
 
 */
 class q2{
-  /*  public static <T> T max(T x, T y){
+ /*   public static <T> T max(T x, T y){
         return x > y ? x : y;
     }
 

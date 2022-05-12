@@ -19,10 +19,10 @@ Answer: No. java: non-static type variable T cannot be referenced from a static 
 package generics;
 
 class Q9<T> {
-       
+
     /*public static T getInstance() {
         if (instance == null)
-            instance = new Q9<T>();
+            instance = new Singleton<T>();
 
         return instance;
     }

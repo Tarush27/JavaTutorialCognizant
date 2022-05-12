@@ -33,8 +33,8 @@ package generics;
 
 class Node<T> {
     public static void main(String[] args) {
-//        Node<Circle> nc = new Node<Circle>();
-//        Node<Shape> ns = (Node<Circle>) new nc;
+     /*   Node<Circle> nc=new Node<>();
+        Node<Shape>  ns=nc;*/
     }
 }
 
